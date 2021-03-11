@@ -2,7 +2,7 @@ defmodule ListFilterTest do
   use ExUnit.Case
 
   describe "call/1" do
-    test "returns a count of odds in a list" do
+    test "returns a count of odd in a list" do
       list = ["1", "3", "6", "43", "banana", "6", "abc"]
 
       response = ListFilter.call(list)
